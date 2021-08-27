@@ -1,0 +1,22 @@
+{
+  "name": "shadow-breath",
+  "version": "1.0.0",
+  "description": "Add awesome shadows for the non-designer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanilaHashnikov/shadowbreath.git"
+  },
+  "keywords": [
+    "shadows"
+  ],
+  "author": "Danila Hashnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanilaHashnikov/shadowbreath/issues"
+  },
+  "homepage": "https://github.com/DanilaHashnikov/shadowbreath#readme"
+}

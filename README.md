@@ -4,7 +4,7 @@ Get perfect shadows every time for the non-designer.
 
 # Installation
 
-`npm i shadowbreath --save`
+`npm i shadow-breath --save`
 
 Then...
 
