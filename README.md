@@ -9,10 +9,10 @@ Get perfect shadows every time for the non-designer.
 Then...
 
 ```
-import { shadowbreath } from 'shadowbreath';
+import { shadowbreath } from 'shadow-breath';
 
 shadowbreath({
-    shadow_type: 'soft',
+    shadowType: 'soft',
     padding: false
 });
 ```
@@ -21,5 +21,5 @@ shadowbreath({
 
 Shadowbreath supports 2 options, both of which are optional:
 
-* *shadow_type* - _hard / soft_ (Defaults to soft)
+* *shadowType* - _hard / soft_ (Defaults to soft)
 * *padding* - _bollean_ (Defaults to false)

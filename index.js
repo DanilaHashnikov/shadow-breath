@@ -1,17 +1,17 @@
 function shadowbreath(options) {
     let images = document.querySelectorAll('.shadowbreath');
 
-    if (options.shadow_type === 'hard') {
-        options.shadow_type = '0px';
+    if (options.shadowType === 'hard') {
+        options.shadowType = '0px';
     } else {
-        options.shadow_type = '15px';
+        options.shadowType = '15px';
     }
 
     images.forEach(image => {
-        image.style.boxShadow = `10px 10px ${options.shadow_type} 1px rgba(0,0,0,0.12)`;
+        image.style.boxShadow = `10px 10px ${options.shadowType} 1px rgba(0,0,0,0.12)`;
 
         if (options.padding) {
-            image.style.padiding = '1em';
+            image.style.padding = '1em';
         }
     });
 }
